@@ -22,8 +22,8 @@ const About = () => {
                             <img className="transform transition duration-300 hover:scale-110 h-60 mb-10 mx-auto lg:h-80  rounded-3xl" src={my_photo} alt="" />
                         </Bounce>
 
-                        <a href="/" target="_blank" rel="noreferrer" className="px-4 transform transition duration-300 hover:scale-110 border-bottom border-b-2 border-emerald-400 bg-slate-300 text-3xl py-2 dark:bg-zinc-700 dark:text-white rounded m-2"><i className="fab fa-github text-slate-700 dark:text-slate-300 dark:hover:text-emerald-400 transition duration-300"></i></a>
-                        <a href="/" target="_blank" rel="noreferrer" className="px-4 transform transition duration-300 hover:scale-110 border-bottom border-b-2 border-emerald-400 bg-slate-300 dark:bg-zinc-700 text-3xl py-2 dark:text-white rounded m-2"><i className="fab fa-linkedin text-slate-700 dark:text-slate-300 dark:hover:text-emerald-400 transition duration-300"></i></a>
+                        <a href="https://github.com/NieamulKabir" target="_blank" rel="noreferrer" className="px-4 transform transition duration-300 hover:scale-110 border-bottom border-b-2 border-emerald-400 bg-slate-300 text-3xl py-2 dark:bg-zinc-700 dark:text-white rounded m-2"><i className="fab fa-github text-slate-700 dark:text-slate-300 dark:hover:text-emerald-400 transition duration-300"></i></a>
+                        <a href="linkedin.com/in/md-nieamul-kabir-101b491b2" target="_blank" rel="noreferrer" className="px-4 transform transition duration-300 hover:scale-110 border-bottom border-b-2 border-emerald-400 bg-slate-300 dark:bg-zinc-700 text-3xl py-2 dark:text-white rounded m-2"><i className="fab fa-linkedin text-slate-700 dark:text-slate-300 dark:hover:text-emerald-400 transition duration-300"></i></a>
                     </div>
                     <div className="lg:w-2/3 text-center lg:text-left lg:pl-10">
                         <h1 className=" text-2xl lg:text-4xl text-slate-800  dark:text-emerald-400 pt-10 lg:pt-0">Md.Nieamul Kabir</h1>
