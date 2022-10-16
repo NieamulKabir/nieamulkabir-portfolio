@@ -34,7 +34,9 @@ const Projects = () => {
                                 {
                                     projects.filter(htmlProjects => htmlProjects.projectCategory === "html").map(myHtmlProjects =>
 
-                                        <div key={myHtmlProjects.projectId} className=''>
+                                        <div data-aos="flip-left"
+                                            data-aos-easing="ease-out-cubic"
+                                            data-aos-duration="2000" key={myHtmlProjects.projectId} className=''>
 
                                             <div className="card bg-base-100 shadow-xl">
                                                 <figure><img className='w-full h-[310px] m-2 rounded-2xl' src={myHtmlProjects.projectIMG} alt="" /></figure>
@@ -102,7 +104,9 @@ const Projects = () => {
                                 {
                                     projects.filter(javascriptProjects => javascriptProjects.projectCategory === "Javascript").map(myJavascriptProjects =>
 
-                                        <div key={myJavascriptProjects.projectId} className=''>
+                                        <div data-aos="flip-left"
+                                            data-aos-easing="ease-out-cubic"
+                                            data-aos-duration="2000" key={myJavascriptProjects.projectId} className=''>
 
                                             <div className="card bg-base-100 shadow-xl">
                                                 <figure><img className='w-full h-[310px] m-2 rounded-2xl' src={myJavascriptProjects.projectIMG} alt="" /></figure>
@@ -147,7 +151,9 @@ const Projects = () => {
                                 {
                                     projects.filter(reactProjects => reactProjects.projectCategory === "React" || reactProjects.projectCategory === "Fullstack").map(myReactProjects =>
 
-                                        <div key={myReactProjects.projectId} className=''>
+                                        <div data-aos="flip-left"
+                                            data-aos-easing="ease-out-cubic"
+                                            data-aos-duration="2000" key={myReactProjects.projectId} className=''>
 
                                             <div className="card bg-base-100 md:h-[650px] shadow-xl">
                                                 <figure><img className='w-full h-[310px] m-2  rounded-2xl' src={myReactProjects.projectIMG} alt="" /></figure>
@@ -191,7 +197,9 @@ const Projects = () => {
                                 {
                                     projects.filter(fullstackProjects => fullstackProjects.projectCategory === "Fullstack").map(myFullstackProjects =>
 
-                                        <div key={myFullstackProjects.projectId} className=''>
+                                        <div data-aos="flip-left"
+                                            data-aos-easing="ease-out-cubic"
+                                            data-aos-duration="2000" key={myFullstackProjects.projectId} className=''>
 
                                             <div className="card bg-base-100 md:h-[650px] shadow-xl">
                                                 <figure><img className='w-full h-[310px] m-2  rounded-2xl' src={myFullstackProjects.projectIMG} alt="" /></figure>
@@ -227,7 +235,7 @@ const Projects = () => {
 
                         </TabPanel>
 
-                       
+
 
 
 
@@ -237,7 +245,9 @@ const Projects = () => {
 
                                 {
                                     projects.map(myAllProjects =>
-                                        <div key={myAllProjects.projectId} >
+                                        <div data-aos="flip-left"
+                                            data-aos-easing="ease-out-cubic"
+                                            data-aos-duration="2000" key={myAllProjects.projectId} >
 
 
                                             <div className="card bg-base-100 md:h-[650px] shadow-xl">

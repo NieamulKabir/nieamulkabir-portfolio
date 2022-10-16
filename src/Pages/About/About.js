@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import my_photo from '../../assests/image/aboutimg.jpg'
 import Wobble from 'react-reveal/Wobble';
 import Bounce from 'react-reveal/Bounce';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const About = () => {
+    useEffect(() => {
+        AOS.init();
+    }, []);
+
     return (
         <div id="about" className="bg-slate-100  text-zinc-800 font-serif pb-16">
-            <div className="container mx-auto">
-                <h1 className=" pt-16 pb-5 text-4xl font-bold ">About Me</h1>
-                <hr className="py-1 bg-emerald-300 w-36 border-none rounded mb-12 mx-auto" />
-                <div className=" flex items-center flex-col lg:flex-row w-11/12 mx-auto bg-green-100  py-5 px-3 lg:p-16 rounded-box lg:border-l-8 border-green-300">
+            <div className="container mx-auto ">
+                <h1 className=" pt-20 pb-5 text-4xl font-bold ">About Me</h1>
+                <hr className="py-1 bg-emerald-300 w-36 border-none rounded mb-20 mx-auto" />
+
+                <div data-aos="fade-up" data-aos-duration="800"  className=" flex items-center flex-col lg:flex-row w-11/12 mx-auto bg-green-100  py-5 px-3 lg:p-16 rounded-box lg:border-l-8 border-green-300">
                     <div className="lg:w-1/3">
                         <Bounce bottom>
                             <img className="transform transition duration-300 hover:scale-110 h-60 mb-10 mx-auto lg:h-80  rounded-3xl" src={my_photo} alt="" />
