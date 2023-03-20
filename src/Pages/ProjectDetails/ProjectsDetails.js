@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+// import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { useParams } from 'react-router';
 import { NavLink } from 'react-router-dom';
 
