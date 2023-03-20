@@ -90,6 +90,7 @@ const ProjectsDetails = () => {
                     </div>
                 </div>
                 <button className='mt-16'>
+
                     <NavLink to="/" className="px-5 py-3 bg-emerald-400 rounded">Back to Home</NavLink>
                 </button>
             </div>

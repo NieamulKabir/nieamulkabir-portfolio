@@ -15,7 +15,7 @@ const Banner = () => {
                     <div className="">
                         <div className="flex flex-row  md:flex-col justify-center items-center">
                             <a
-                                href="linkedin.com/in/md-nieamul-kabir-101b491b2"
+                                href="https://www.linkedin.com/in/md-nieamul-kabir-101b491b2/"
                                 className="text-decoration-none text-white"
                                 target="_blank"
                                 rel="noreferrer"
@@ -63,7 +63,7 @@ const Banner = () => {
                             </span>
                             </h2>
                             <h1 className='text-left'>
-                                <a href="https://drive.google.com/file/d/1QJMPDR9u3NVe5dIoiy-OM_dpSwM1mryL/view?usp=sharing" target="_blank" rel="noreferrer" className="hover:bg-zinc-800 hover:text-white shadow-emerald-400/30 shadow-lg transition duration-500 mx-auto px-8 py-4  lg:px-8 lg:py-4  bg-emerald-400 rounded-full text-zinc-800 font-semibold text-left">Download Resume</a>
+                                <a href="https://drive.google.com/file/d/1TyrRwdSaOekuWoqxXI4crAs2bkZPUpIF/view?usp=share_link" target="_blank" rel="noreferrer" className="hover:bg-zinc-800 hover:text-white shadow-emerald-400/30 shadow-lg transition duration-500 mx-auto px-8 py-4  lg:px-8 lg:py-4  bg-emerald-400 rounded-full text-zinc-800 font-semibold text-left">Download Resume</a>
                             </h1>
                         </div>
                     </div>

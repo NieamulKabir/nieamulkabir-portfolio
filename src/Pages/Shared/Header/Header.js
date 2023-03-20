@@ -13,6 +13,7 @@ const Header = () => {
                             <p className='font-extrabold italic text-base text-violet-600  md:text-2xl'>Nieamul' Portfolio</p>
                         </div>
                     </AnchorLink>
+                  
                 </div>
 
                 <div className="hidden mx-2 mr-16 lg:flex">

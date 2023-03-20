@@ -1,5 +1,7 @@
 import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+const today = new Date();
+const year = today.getFullYear();
 
 const Footer = () => {
     return (
@@ -45,7 +47,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div>
-                    <p>© 2022 - All right reserved by Md.Nieamul Kabir</p>
+                    <p>Copyright © {year} - All right reserved by <span className='text-orange-600'> Md.Nieamul Kabir</span></p>
+                   
                 </div>
             </footer>
         </div>

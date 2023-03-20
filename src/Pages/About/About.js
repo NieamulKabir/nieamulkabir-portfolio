@@ -1,9 +1,10 @@
 import React, { useEffect } from 'react';
-import my_photo from '../../assests/image/aboutimg.jpg'
+import my_photo from '../../assests/image/formalPC.jpg'
 import Wobble from 'react-reveal/Wobble';
 import Bounce from 'react-reveal/Bounce';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
 
 const About = () => {
     useEffect(() => {
@@ -16,7 +17,7 @@ const About = () => {
                 <h1 className=" pt-20 pb-5 text-4xl font-bold ">About Me</h1>
                 <hr className="py-1 bg-emerald-300 w-36 border-none rounded mb-20 mx-auto" />
 
-                <div data-aos="fade-up" data-aos-duration="800"  className=" flex items-center flex-col lg:flex-row w-11/12 mx-auto bg-green-100  py-5 px-3 lg:p-16 rounded-box lg:border-l-8 border-green-300">
+                <div data-aos="fade-up" data-aos-duration="800" className=" flex items-center flex-col lg:flex-row w-11/12 mx-auto bg-green-100  py-5 px-3 lg:p-16 rounded-box lg:border-l-8 border-green-300">
                     <div className="lg:w-1/3">
                         <Bounce bottom>
                             <img className="transform transition duration-300 hover:scale-110 h-60 mb-10 mx-auto lg:h-80  rounded-3xl" src={my_photo} alt="" />
@@ -52,12 +53,20 @@ const About = () => {
                             </Wobble>
                             <p>Familiar</p>
                             <Wobble>
+                                <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1">Redux</button>
+                                <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1"> Redux Toolkit</button>
+                                <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1"> RTK Query</button>
+                                <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1"> Next.js</button>
+                                <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1"> Vite</button>
                                 <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1"> Material UI</button>
+                                <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1"> REST API</button>
                                 <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1"> FireBase</button>
                                 <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1"> FireBase Hooks</button>
                                 <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1"> Node.JS</button>
                                 <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1"> Express</button>
                                 <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1"> MongoDB</button>
+                                <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1"> Material UI</button>
+                                <button className="px-3 transform transition cursor-default duration-300 hover:scale-110 font-light py-1 text-sm bg-emerald-500  text-white rounded-full m-1"> JSON Server</button>
 
                             </Wobble>
 
